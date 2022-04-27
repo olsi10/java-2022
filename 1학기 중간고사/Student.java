@@ -16,5 +16,5 @@ public class Student {
 }
 //학생 클래스를 상속받는 학급회장 클래스
 class Leader extends Student {
-    
+    //멤버 변수나 메소드 정의 가능
 }
