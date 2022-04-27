@@ -17,6 +17,9 @@ public class EngHello extends Greeting {
         //super 키워드
         //상위 클래스를 참조할 수 있는 가상의 참조변수로 상위 클래스의 멤버 변수나 메소드를 하위 클래스에서 명시적 호출할 때 사용
         super.sayHello();
+        //형식
+        //1. super.상위 클래스 멤버 변수
+        //2. super.상위 클래스의 메소드 이름()
     }
 
     public static void main(String[] args) {
