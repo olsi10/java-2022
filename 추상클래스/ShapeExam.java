@@ -13,6 +13,5 @@ public class ShapeExam {
     }
 
     class getCircle extends ShapeExam {
-
     }
 }

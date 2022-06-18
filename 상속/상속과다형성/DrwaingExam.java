@@ -28,7 +28,7 @@ public class DrwaingExam {
         //s.painting(); 접근 불가능
         //s는 Shape형 객체 변수이므로 draw() 메소므나 호출 가능, Circle 클래스가 갖고 있는 메소드와 painting에는 접근 불가
 
-        Shape s = c; //업 캐스팅 = 슈퍼 클래스 객체 = 서브 클래스 객체
+        s = c; //업 캐스팅 = 슈퍼 클래스 객체 = 서브 클래스 객체
         s.draw();
         //s.painting(); 접근 불가능
 
