@@ -1,6 +1,5 @@
-package IO;
+package 입출력;
 
-import javax.imageio.IIOException;
 import java.io.IOException;
 import java.io.InputStream;
 
