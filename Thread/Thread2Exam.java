@@ -18,3 +18,5 @@ public class Thread2Exam {
         System.out.println("프로그램 종료");
     }
 }
+
+// 출력 결과가 다르게 나오는 이유는 JVM 스케쥴러가 스레드의 실행 시간과 순서를 관리하기 때문이다.

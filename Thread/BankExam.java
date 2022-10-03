@@ -35,7 +35,8 @@ class Bank {
 } // 뱅크 닫음
 
 class Family1 extends Thread { // 스레드상속 받아서 구현
-    public  void  run() {
+    public void run() {
+        // 부분 객체 동기화
         synchronized (BankExam.myBank) {
             BankExam.myBank.saveM(5000);
         }
@@ -45,6 +46,7 @@ class Family1 extends Thread { // 스레드상속 받아서 구현
 
 class Family2 extends Thread { // 스레드상속 받아서 구현
     public  void  run() {
+        // 부분 객체 동기화
         synchronized (BankExam.myBank) {
             BankExam.myBank.minusMoney(5000);
         }

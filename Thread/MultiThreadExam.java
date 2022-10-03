@@ -28,7 +28,7 @@ public class MultiThreadExam extends Thread {
 
     public MultiThreadExam(String name, Summing sum, int num) {
         // 생성자로 초기화
-        super(name); // Thread에 s값을 전달 -> 스레드 이름 지정
+        super(name); // Thread에 name 값을 전달 -> 스레드 이름 지정
         this.sum = sum;
         this.num = num;
         System.out.println("스레드 : " + getName() + "가 시작됨");
